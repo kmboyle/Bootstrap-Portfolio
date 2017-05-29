@@ -6,49 +6,58 @@
 		<title>My Portfolio Page</title>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="sheet.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		
 
 </head>
 
 <body>
+     <!-- Wrap all page content here -->
+<div id="wrap">
+<!-- Container Div -->
+  <div class="container">
 
-	<div class="container">
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-default">
 
-		<nav class="navbar navbar-default">
-				
-			<div class="container-fluid">
+      <!-- Place Fluid Container in Navbar -->
+      <div class="container-fluid">
 
-				<div class ="navbar-header">
+        <!-- Designate a navbar heading -->
+        <div class="navbar-header">
 
- 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <!-- Collapsible button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 
-              		<!-- navbar button elements-->
-              		<span class="sr-only">Toggle navigation</span>
-             		 <span class="icon-bar"></span> <!-- first line -->
-              		<span class="icon-bar"></span> <!-- second line -->
-              		<span class="icon-bar"></span> <!-- third line -->
+              <!-- navbar button elements-->
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span> <!-- first line -->
+              <span class="icon-bar"></span> <!-- second line -->
+              <span class="icon-bar"></span> <!-- third line -->
+
+            </button>
+          <!-- Our brand / logo -->
+          <a class="navbar-brand" href="index.html">Kevin Boyle</a>
+        </div>
+
+        <!-- The links of our navbar -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
 
 
-            		</button>
-          			<!-- Our brand / logo -->
-         		 	<a class="navbar-brand" href="#">Kevin Boyle</a>
-        		</div>
-
-        		<!-- The links of our navbar -->
-        		<div id="navbar" class="navbar-collapse collapse">
-          		<ul class="nav navbar-nav">
-           		<li class="active"><a href="index.html">Home</a></li>
-           		<li><a href="portfolio.html">Portfolio</a></li>
-            	<li><a href="contact.html">Contact</a></li>
-
-           		 </ul>
-
-           	</div>
-        </nav>
 
    	 <!-- a Bootstrap row with columns -->
-   	<div class="row">
+   		<div class="row">
 
       <!-- At large+ screens takes up half width (6/12) -->
     	<div class="col-md-4">
@@ -60,11 +69,12 @@
 		<div class= "col-md-4">	
 
 		<p>My name is Kevin. I enjoy web development, reading, soccer, running, music, technology, art, and science.  I like to travel to different parts of North Carolina, the USA, and to different countries.</p>
-		<br>
+		
 
 		<p>Some of my favorite books are novels.  Fiction authors that I like are David Foster Wallace, Michael Chabon, E.L. Doctorow, Jonathan Franzen, John Updike, Philip Roth, and Tim O'Brien.</p>
-		<br>
-
+		
+		<p>
+		Koreanisches Lorem Ipsum: 국민경제의 발전을 위한 중요정책의 수립에 관하여 대통령의 자문에 응하기 위하여 국민경제자문회의를 둘 수 있다.</p><p> Griechisches Lorem Ipsum: Λορεμ ιπσθμ δολορ σιτ αμετ, νοvθμ φαβελλασ πετεντιθμ vελ νε, ατ νισλ σονετ οπορτερε εθμ. Αλιι δοcτθσ μει ιδ, νο αθτεμ αθδιρε ιντερεσσετ μελ, δοcενδι cομμθνε οπορτεατ τε cθμ.</p><p>Japanisches Lorem Ipsum: 旅ロ京青利セムレ弱改フヨス波府かばぼ意送でぼ調掲察たス日西重ケアナ住橋ユムミク順待ふかんぼ人奨貯鏡すびそ。 </p><p>Russisches Lorem Ipsum: Лорем ипсум долор сит амет, пер цлита поссит ех, ат мунере фабулас петентиум сит. Иус цу цибо саперет сцрипсерит, нец виси муциус лабитур ид. Ет хис нонумес нолуиссе дигниссим. </p><p>Chinesisches Lorem Ipsum: 側経意責家方家閉討店暖育田庁載社転線宇。得君新術治温抗添代話考振投員殴大闘北裁。品間識部案代学凰処済準世一戸刻法分。悼測済諏計飯利安凶断理資沢同岩面文認革。内警格化再薬方久化体教御決数詭芸得筆代。</p><p> indisches Lorem Ipsum: पढाए हिंदी रहारुप अनुवाद कार्यलय मुख्य संस्था सोफ़तवेर निरपेक्ष उनका आपके बाटते आशाआपस मुख्यतह उशकी करता। शुरुआत संस्था कुशलता मेंभटृ अनुवाद गएआप विशेष सकते परिभाषित लाभान्वित प्रति देकर समजते दिशामे प्राप्त जैसे वर्णन संस्थान निर्माता प्रव्रुति भाति चुनने उपलब्ध बेंगलूर अर्थपुर्ण </p><p>Armenisches Lorem Ipsum: լոռեմ իպսում դոլոռ սիթ ամեթ, լաբոռե մոդեռաթիուս եթ հաս, պեռ ոմնիս լաթինե դիսպութաթիոնի աթ, վիս ֆեուգաիթ ծիվիբուս եխ. վիվենդում լաբոռամուս ելաբոռառեթ նամ ին.</p><p> Arabisches Lorem Ipsum: غينيا واستمر العصبة ضرب قد. وباءت الأمريكي الأوربيين هو به،, هو العالم، الثقيلة بال. مع وايرلندا الأوروبيّون كان, قد بحق أسابيع العظمى واعتلاء. انه كل وإقامة المواد.</p><p> Hebräisches Lorem Ipsum: כדי יסוד מונחים מועמדים של, דת דפים מאמרשיחהצפה זאת. אתה דת שונה כלשהו, גם אחר ליום בשפות, או ניווט פולנית לחיבור ארץ. ויש בקלות ואמנות אירועים או, אל אינו כלכלה שתי.</p>
 		</div>
 		
 		
@@ -79,21 +89,34 @@
 					<a href="http://www.linkedin.com/in/kevin-boyle-a1a2b4b" target="_blank"> <img src="images/LinkedIn.png" height="50" width="50" alt="linkedIn" id="linked"></a>
 					<a href="http://www.stockoverflow.com/u/7938904" target="_blank"><img src="images/stackoverflow.png" height="50" width="50" alt="stack" id="stack"></a>
 			
-			</div>			
+				</div>			
+			</div>
 		</div>
-	</div>
+ 	</div>
+ </div>
+</div>
 
-	<div class="push"></div>
 
-	</div>
+    <div id="footer">
+      <div class="container">
+      <h4> &copy; 2017 Kevin Boyle</h4>
 
-			<footer>
-				<div class="footer">
-					<h4> &copy; 2017 Kevin Boyle</h4>
-				</div>
-			</footer>
+      </div>
+    </div>
+
+		  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  			<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  			<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		
 		</body>
 
 	
 </html>
+   
+
+     
+
+    
+

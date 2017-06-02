@@ -7,114 +7,71 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/sheet.css">
-		
-		
-
-</head>
-
+	</head>
 <body>
-     <!-- Wrap all page content here -->
-<div id="wrap">
-	<!-- Container Div -->
-  <div class="container">
-
-    <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-default">
-
-      <!-- Place Fluid Container in Navbar -->
-      <div class="container-fluid">
-
-        <!-- Designate a navbar heading -->
-        <div class="navbar-header">
-
-          <!-- Collapsible button -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-
-              <span class="sr-only" style="background-color: #fff">Toggle navigation</span>
-              <span class="icon-bar" style="background-color: #fff"></span> <!-- first line -->
-              <span class="icon-bar" style="background-color: #fff"></span> <!-- second line -->
-              <span class="icon-bar" style="background-color: #fff"></span> <!-- third line -->
-              
-            </button>
-          <!-- Our brand / logo -->
-          <a class="navbar-brand" href="index.html"><strong style="color:#fff">Kevin Boyle</strong></a>
-        </div>
-
-        <!-- The links of our navbar -->
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li ><a href="index.html" style="color:#fff">Home</a></li>
-            <li><a href="portfolio.html" style="color:#fff">Portfolio</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-
-        </div>
-        <!--/.nav-collapse -->
-      </div>
-      <!--/.container-fluid -->
-    </nav>
-
-   	 <!-- a Bootstrap row with columns -->
+  <div id="wrap">
+   <div class="container-fluid">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                   <div class="navbar-header">
+                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                     <span class="sr-only" style="background-color: #fff">Toggle navigation</span>
+                     <span class="icon-bar" style="background-color: #fff"></span> <!-- first line -->
+                     <span class="icon-bar" style="background-color: #fff"></span> <!-- second line -->
+                     <span class="icon-bar" style="background-color: #fff"></span> <!-- third line -->
+                     </button>
+                      <a class="navbar-brand" href="index.html"><strong style="color:#fff">Kevin Boyle</strong></a>
+                   </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html" style="color:#fff">Portfolio</a></li>
+                        <li><a href="contact.html" style="color:#fff">Contact</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
    	<div class="row">
-
-      <!-- At large+ screens takes up half width (6/12) -->
-    	<div class="col-md-6">
-			
+		<div class="col-md-6">
 			<div class="wrapper">
-
 				<div class="contact">
-				
-				<h2>Contact</h2>
-				<div class="hr"><hr /></div>
-
-				<form>
-  					<div class="form-group">
- 					   <label for="exampleInputEmail1">Name</label>
- 					   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
- 					 </div>
- 		
- 				 <div class="form-group">
-   					 <label for="exampleInputPassword1">Email</label>
-  					  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
- 				 </div>
-					<textarea class="form-control" rows="3"></textarea>
- 			 	</div>
-  					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
-			</div>
-
-		</div>
-		
-		
-		<div class = "col-md-6">
-
-			<div class="contact-info">
-				<h3><strong>Connect with Me</strong></h3>
-				<br>
-			
-				
-					<a href="http://www.github.com/kmboyle" target="_blank"> <img src="images/github.png" height="50" width="50" alt="gitbhub" id="git"></a>
-					<a href="http://www.linkedin.com/in/kevin-boyle-a1a2b4b" target="_blank"> <img src="images/LinkedIn.png" height="50" width="50" alt="linkedIn" id="linked"></a>
-					<a href="http://www.stockoverflow.com/u/7938904" target="_blank"><img src="images/stackoverflow.png" height="50" width="50" alt="stack" id="stack"></a>
-			
-					</div>
+					<h2>Contact</h2>
+					<span><hr /></span>
+				 	<form>
+  				  	    <div class="form-group">
+ 				    	   <label for="exampleInputEmail1">Name</label>
+ 				   			<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+ 				   		</div>
+ 				    	<div class="form-group">
+   				 			<label for="exampleInputPassword1">Email</label>
+  				  			 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+ 						</div>
+						<textarea class="form-control" rows="3"></textarea>
+  						<button type="submit" class="btn btn-default">Submit</button>
+					</form>
 				</div>
-			</div>
+			</div>	
+		</div>	
+		   	    <div class="row">
+                  <sidebar class = "col-xs-12 center-block col-md-4 ">		
+                  	<h2><strong>Connect with Me</strong></h2>
+                  		<br>				
+                  			<a href="http://www.github.com/kmboyle" target="_blank"> <img src="images/github.png" height="50" width="50" alt="gitbhub" id="git"></a>
+                  			<a href="http://www.linkedin.com/in/kevin-boyle-a1a2b4b" target="_blank"> <img src="images/LinkedIn.png" height="50" width="50" alt="linkedIn" id="linked"></a>
+                  			<a href="http://www.stockoverflow.com/u/7938904" target="_blank"><img src="images/stackoverflow.png" height="50" width="50" alt="stack" id="stack"></a>
+                	</sidebar>	
+                </div>		
+				</div>			
 		</div>
-	</div>
-</div>
+ 	</div>
+ </div>
+    <div class="container" id="footer">
+      <h4> &copy; 2017 Kevin Boyle</h4>
+    </div>
+     <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
-	
-     	<div class="container" id="footer">
-     		 <h4> &copy; 2017 Kevin Boyle</h4>
-      </div>
-
-				  <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
-  			<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-
-  			<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-  			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		
-		</body>
-
-	
+        <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
 </html>

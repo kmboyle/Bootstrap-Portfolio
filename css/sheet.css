@@ -22,6 +22,7 @@ ul.nav{
 }
 /* Set the fixed height of the footer here */
 #footer{
+
   height: 60px;
   background-color:#666666;
   text-align: center;
@@ -32,6 +33,7 @@ ul.nav{
 .navbar-default{
   background-color: #3158a3;
 }
+
 .image1,.image2,.image3,.image4,.image5 { 
    position: relative; 
    width: 100%;

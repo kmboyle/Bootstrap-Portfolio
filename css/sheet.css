@@ -22,7 +22,6 @@ ul.nav{
 }
 /* Set the fixed height of the footer here */
 #footer{
-
   height: 60px;
   background-color:#666666;
   text-align: center;
@@ -69,8 +68,6 @@ p.col-md-8{
   from {left:0px;top:0px;}
   to {left: 200px;top:200px;}
 }
-
-
 #boyle
 {
   position:relative;
@@ -80,5 +77,3 @@ p.col-md-8{
   animation-timing-function: ease-in;
   animation-direction: alternate-reverse;
 }
-
-

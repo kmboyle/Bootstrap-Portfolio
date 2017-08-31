@@ -1,0 +1,150 @@
+        html,
+        body {
+            height: 100%;
+            /* The html and body elements cannot have any padding or margin. */
+            background-image: url("../images/ep_naturalwhite.png");
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        }
+        
+        ul.nav {
+            float: right;
+        }
+        /* Wrapper for page content to push down footer */
+        
+        #wrap {
+            min-height: 100%;
+            height: auto;
+            /* Negative indent footer by its height */
+            margin: 0 auto -60px;
+            /* Pad bottom by footer height */
+            padding: 0 0 60px;
+        }
+        /* Set the fixed height of the footer here */
+        
+        #footer {
+            height: 60px;
+            background-color: #666666;
+            text-align: center;
+            padding: 1%;
+            margin-top: 2%;
+            color: #ffffff;
+        }
+        
+        .navbar-default {
+            background-color: #3158a3;
+        }
+        
+        #myName {
+            line-height: 0em;
+        }
+        
+        .image1,
+        .image2,
+        .image3,
+        .image4,
+        .image5 {
+            position: relative;
+            width: 100%;
+            padding: 4%;
+        }
+        
+        h2.absolute1,
+        h2.absolute2,
+        h2.absolute3,
+        h2.absolute4,
+        h2.absolute5 {
+            position: absolute;
+            top: 60%;
+            width: 200px;
+            background-color: #3158a3;
+            color: #ffffff;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .col-xs-12.center-block {
+            text-align: center;
+        }
+        
+        p.col-md-8 {
+            width: 75%;
+        }
+        
+        .btn {
+            background-color: #3158a3;
+            color: #fff;
+        }
+        
+        .mtns {
+            width: 100%;
+            height: 75%;
+        }
+        
+        @keyframes example {
+            from {
+                left: 0px;
+                top: 0px;
+            }
+            to {
+                left: 200px;
+                top: 200px;
+            }
+        }
+        
+        #boyle {
+            position: relative;
+            border-radius: 50%;
+            /* left: 0px;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-timing-function: ease-in;
+            animation-direction: alternate-reverse; */
+        }
+        
+        #circle,
+        #earth {
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            width: 18em;
+            height: 18em;
+            margin-top: -9em;
+            margin-left: -9em;
+            background: #3158a3;
+            border-radius: 130px;
+            opacity: 0.7;
+        }
+        
+        #enter {
+            position: fixed;
+            top: 46%;
+            left: 65%;
+            margin-top: -9em;
+            margin-left: -9em;
+            color: #ebe9e8;
+            height: 180px;
+            width: 400px;
+            margin: -195px -400px;
+            -webkit-animation-name: move;
+            -webkit-animation-duration: 4s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-direction: right;
+            -webkit-animation-timing-function: linear;
+        }
+        
+        #enter:hover {
+            -webkit-animation-play-state: paused;
+        }
+        
+        @-webkit-keyframes move {
+            0% {
+                margin-left: -13em;
+            }
+            100% {
+                margin-left: -3em;
+            }
+        }
+        
+        .panel-body {
+            background-color: #d4cecd
+        }

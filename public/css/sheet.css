@@ -94,6 +94,7 @@
         #boyle {
             position: relative;
             border-radius: 50%;
+            width: 200px;
             /* left: 0px;
             animation-name: example;
             animation-duration: 4s;

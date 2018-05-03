@@ -136,6 +136,9 @@
         #enter:hover {
             -webkit-animation-play-state: paused;
         }
+        .IFS{
+            background-color:#164165;
+        }
         
         @-webkit-keyframes move {
             0% {

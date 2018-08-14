@@ -118,14 +118,15 @@
         
         #enter {
             position: fixed;
-            top: 46%;
-            left: 65%;
-            margin-top: -9em;
+            top: 30%;
+            left: 50%;
+            width: 18em;
+            height: 18em;
+            margin-top: -4em;
             margin-left: -9em;
+            background: rgba(49, 88, 163, 0);
+            border-radius: 100%;
             color: #ebe9e8;
-            height: 180px;
-            width: 400px;
-            margin: -195px -400px;
             -webkit-animation-name: move;
             -webkit-animation-duration: 4s;
             -webkit-animation-iteration-count: infinite;
@@ -142,10 +143,10 @@
         
         @-webkit-keyframes move {
             0% {
-                margin-left: -13em;
+                margin-left: -20em;
             }
             100% {
-                margin-left: -3em;
+                margin-left: 20em;
             }
         }
         

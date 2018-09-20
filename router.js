@@ -15,4 +15,7 @@ app.get("/contact", function(req, res) {
 app.get("/portfolio", function(req, res) {
     res.sendFile(__dirname + "/public/portfolio.html");
 })
+app.post('/contactMe', function(req, res) {
+    
+})
 module.exports = app;

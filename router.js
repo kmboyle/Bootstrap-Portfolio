@@ -16,6 +16,13 @@ app.get("/portfolio", function(req, res) {
     res.sendFile(__dirname + "/public/portfolio.html");
 })
 app.post('/contactMe', function(req, res) {
+    const parsedEmailForm = {
+        from: req.body.email,
+        to: 'kevin.michael.boyle@gmail.com',
+        subject: req.body.name,
+        html: `<b>${req.body.message}</b>`
+    }
+    console.log(parsedEmailForm);
     
 })
 module.exports = app;

@@ -33,23 +33,22 @@ app.post('/contactMe', function(req, res) {
             pass: ''
         }
     });
+
+    function mailResponse(email, transport) {
+      transport.sendMail(email, function(err, res) {
+        if (err) {
+          return err;
+        } else {
+          return true;
+        }
+      });
+    }
     const response = mailResponse(parsedEmailForm, smtpTransport);
     if (response === true) {
-        res.sendStatus(200);
+      res.sendStatus(200);
     } else {
-        res.send(404, response);
+      res.send(404, response);
     }
-});
-    
-    function mailResponse(email, transport) {
-        transport.sendMail(email, function(err, res) {
-            if (err) {
-                return err;
-            } else {
-                return true;
-            }
-    });
-}
-    
-
-module.exports = app;
+  });
+  
+  module.exports = app;

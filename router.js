@@ -24,6 +24,7 @@ app.post('/contactMe', function(req, res) {
         subject: req.body.name,
         html: `<b>${req.body.message}</b>`
     }
+    // wire up transport to actually send email
     const smtpTransport = nodemailer.createTransport({
         host: 'smtp.gmail.com',
         secureConnection: false,
@@ -33,7 +34,7 @@ app.post('/contactMe', function(req, res) {
             pass: ''
         }
     });
-
+    
     function mailResponse(email, transport) {
       transport.sendMail(email, function(err, res) {
         if (err) {
@@ -43,12 +44,13 @@ app.post('/contactMe', function(req, res) {
         }
       });
     }
-    const response = mailResponse(parsedEmailForm, smtpTransport);
-    if (response === true) {
+
+    mailResponse(parsedEmailForm, smtpTransport);
+    if (res.statusCode === 200) {
       res.sendStatus(200);
     } else {
       res.send(404, response);
     }
   });
-  
+
   module.exports = app;

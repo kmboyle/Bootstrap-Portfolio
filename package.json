@@ -22,7 +22,7 @@
     "express": "^4.15.4",
     "express-handlebars": "^3.1.0",
     "method-override": "^2.3.9",
-    "nodemailer": "^4.6.8",
+    "nodemailer": "^6.4.16",
     "path": "^0.12.7"
   }
 }
